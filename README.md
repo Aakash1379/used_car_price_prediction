@@ -39,63 +39,60 @@ Normalize or standardize transaction data for consistency.
 
 2. features Selection: 
 
-   Time-Based Features: 
+Time-Based Features: 
 
-    1. Year (manufacturing year) 
+1. Year (manufacturing year) 
 
-    2. Kilometers Driven (total kilometers driven) 
+2. Kilometers Driven (total kilometers driven) 
 
-    3. Owner Type (number of previous owners)  
+3. Owner Type (number of previous owners)  
 
            
 
-     Behavioral Features:             
+Behavioral Features:             
 
-     1. Fuel Type (type of fuel used) 
+1. Fuel Type (type of fuel used) 
 
-     2. Transmission (transmission type) 
+2. Transmission (transmission type) 
 
-     3. Mileage (fuel efficiency) 
+3. Mileage (fuel efficiency) 
 
-     4. Engine (engine capacity) 
+4. Engine (engine capacity) 
 
-     5. Power (maximum power output) 
+5. Power (maximum power output) 
 
-     Vehicle Characteristics: 
+Vehicle Characteristics: 
 
-      1. Brand 
+1. Brand 
 
-      2. Model 
+2. Model 
 
-      3. Seats
-      4. 
+3. Seats
+   
 Model Selection: 
 
-       Linear Models: 
+Linear Models: 
 
-          1. Linear Regression: Baseline model for price prediction 
+1. Linear Regression: Baseline model for price prediction 
 
-          2. Lasso Regression: Feature selection and regularization 
+2. Lasso Regression: Feature selection and regularization 
 
-          3. Ridge Regression: Handling multicollinearity 
+3. Ridge Regression: Handling multicollinearity 
 
- 
+ Ensemble Models: 
 
-         Ensemble Models: 
-
-            1. Random Forest: Capturing complex relationships 
+ Random Forest: Capturing complex relationships 
 
  
+Evaluation Metrics: 
 
- Evaluation Metrics: 
+1. Mean Absolute Error (MAE) 
 
-      1. Mean Absolute Error (MAE) 
+2. Mean Squared Error (MSE) 
 
-       2. Mean Squared Error (MSE) 
+3. Root Mean Squared Error (RMSE) 
 
-       3. Root Mean Squared Error (RMSE) 
-
-       4. R-Squared (R²)   
+4. R-Squared (R²)   
 
      
 
