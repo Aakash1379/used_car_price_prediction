@@ -31,75 +31,75 @@ Modeling Approach
 
 The approach to building this used car price prediction model includes: 
 
-Data Preprocessing: 
+1.Data Preprocessing: 
 
 Handle missing values and outliers. 
 
 Normalize or standardize transaction data for consistency. 
 
-     2. features Selection: 
+2. features Selection: 
 
-          Time-Based Features: 
+   Time-Based Features: 
 
-                 1. Year (manufacturing year) 
+    1. Year (manufacturing year) 
 
-                 2. Kilometers Driven (total kilometers driven) 
+    2. Kilometers Driven (total kilometers driven) 
 
-                 3. Owner Type (number of previous owners)  
+    3. Owner Type (number of previous owners)  
 
            
 
-            Behavioral Features:             
+     Behavioral Features:             
 
-                    1. Fuel Type (type of fuel used) 
+     1. Fuel Type (type of fuel used) 
 
-                  2. Transmission (transmission type) 
+     2. Transmission (transmission type) 
 
-                  3. Mileage (fuel efficiency) 
+     3. Mileage (fuel efficiency) 
 
-                  4. Engine (engine capacity) 
+     4. Engine (engine capacity) 
 
-                  5. Power (maximum power output) 
+     5. Power (maximum power output) 
 
-           Vehicle Characteristics: 
+     Vehicle Characteristics: 
 
-                    1. Brand 
+      1. Brand 
 
-                    2. Model 
+      2. Model 
 
-                    3. Seats 
+      3. Seats
+      4. 
+Model Selection: 
 
-      Model Selection: 
+       Linear Models: 
 
-            Linear Models: 
+          1. Linear Regression: Baseline model for price prediction 
 
-                 1. Linear Regression: Baseline model for price prediction 
+          2. Lasso Regression: Feature selection and regularization 
 
-                  2. Lasso Regression: Feature selection and regularization 
-
-                  3. Ridge Regression: Handling multicollinearity 
-
- 
-
-            Ensemble Models: 
-
-                   1. Random Forest: Capturing complex relationships 
+          3. Ridge Regression: Handling multicollinearity 
 
  
 
-       Evaluation Metrics: 
+         Ensemble Models: 
 
-                 1. Mean Absolute Error (MAE) 
+            1. Random Forest: Capturing complex relationships 
 
-                 2. Mean Squared Error (MSE) 
+ 
 
-                 3. Root Mean Squared Error (RMSE) 
+ Evaluation Metrics: 
 
-                 4. R-Squared (R²)   
+      1. Mean Absolute Error (MAE) 
+
+       2. Mean Squared Error (MSE) 
+
+       3. Root Mean Squared Error (RMSE) 
+
+       4. R-Squared (R²)   
 
      
 
-         Usage:     
+Usage:     
 
 Data Loading: Load your transaction dataset in the notebook. 
 
@@ -111,7 +111,7 @@ Model Training and Evaluation: Train and evaluate the model using the chosen tec
 
  
 
-      Technologies Used: 
+Technologies Used: 
 
 Python: Programming language for model development and data       manipulation. 
 
@@ -126,19 +126,18 @@ Matplotlib/Seaborn: For visualizations.
  
 
  
+Benefits: 
 
-       Benefits: 
+1. Accurate price predictions for buyers and sellers 
 
-             1. Accurate price predictions for buyers and sellers 
+2. Improved decision-making for dealerships and investors 
 
-             2. Improved decision-making for dealerships and investors 
-
-             3. Enhanced market transparency and efficiency 
-
-             4. Reduced risks associated with price uncertainty 
+3. Enhanced market transparency and efficiency
+    
+4. Reduced risks associated with price uncertainty 
 
  
 
-      Contributors: 
+Contributors: 
 
-            .   Aakash Prathipati 
+ Aakash Prathipati 
