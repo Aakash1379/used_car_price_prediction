@@ -64,6 +64,9 @@ Linear Models:
 Ensemble Models:
 Random Forest: Capturing complex relationships
 
+
+ [code](https://github.com/Aakash1379/used_car_price_prediction/blob/main/used%20car%20price%20prediction.ipynb)
+
 **Evaluation Metrics:**
 1. Mean Absolute Error (MAE)
 2. Mean Squared Error (MSE)
