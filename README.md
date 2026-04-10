@@ -17,7 +17,7 @@ Design and train a robust machine learning model to predict used car prices with
 
 Dataset contains these Features:
 Car ID: A unique identifier for each car listing.
-Brand: The brand or manufacturer of the car (e.g., Toyota, Honda, Ford, etc.).
+Brand: The brand or manufacturer of the car (e.g., Toyota, Honda, Ford, etc).
 Model: The model of the car (e.g., Camry, Civic, Mustang, etc.).
 Year: The manufacturing year of the car.
 Kilometers Driven: The total kilometers driven by the car.
