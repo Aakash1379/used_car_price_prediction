@@ -54,15 +54,16 @@ Vehicle Characteristics:
 2. Model
 3. Seats
    
-Model Selection:
+**Model Evaluation:**
 
-Linear Models:
-1. Linear Regression: Baseline model for price prediction
-2. Lasso Regression: Feature selection and regularization
-3. Ridge Regression: Handling multicollinearity
+1. Linear Regression: Baseline model for price prediction = R^2 Score = 0.74
+2. Lasso Regression: Feature selection and regularization = R^2 Score = 0.73
+3. Ridge Regression: Handling multicollinearity = R^2 Score = 0.73
+4. Random Forest: Capturing complex relationships = R^2 Score = 0.82
 
-Ensemble Models:
-Random Forest: Capturing complex relationships
+**Best Model:**
+The **Random Forest** outperformed all other models with the highest R^2 score and lowest error metrics.
+
 
 
  [code](https://github.com/Aakash1379/used_car_price_prediction/blob/main/used%20car%20price%20prediction.ipynb)
